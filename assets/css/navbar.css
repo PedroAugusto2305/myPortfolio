@@ -1,0 +1,28 @@
+/* Navbar */
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+#navbar .logo h1 {
+  color: #fafafa;
+  font-size: 3.2rem;
+  font-family: 'Inter';
+}
+
+.menu {
+  display: flex;
+}
+
+.menu .menu--item a {
+  color: #fafafa;
+  font-size: 2rem;
+  padding: 0 2.8rem;
+  font-family: 'Inter';
+}
+
+.menu .menu--item a:hover {
+  color: #2abfbf;
+}

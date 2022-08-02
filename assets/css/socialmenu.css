@@ -1,0 +1,31 @@
+/*  footer menu all pages */
+
+.social-menu {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-icon span,
+.linkedin-icon span,
+.github-icon span,
+.codepen-icon span {
+  color: #fafafa;
+  margin: 0 0.8rem;
+}
+
+.instagram-icon span:hover {
+  color: #bf2a37;
+}
+
+.linkedin-icon span:hover {
+  color: #0442bf;
+}
+.github-icon span:hover {
+  color: #598c80;
+}
+
+.codepen-icon span:hover {
+  color: #172228;
+}
