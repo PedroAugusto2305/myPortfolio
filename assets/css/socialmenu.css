@@ -1,6 +1,6 @@
 /*  footer menu all pages */
 
-.social-menu {
+.footer--content {
   margin-top: 4rem;
   display: flex;
   align-items: center;
@@ -28,4 +28,16 @@
 
 .codepen-icon span:hover {
   color: #172228;
+}
+
+.footer--text {
+  font-family: 'Saira', sans-serif;
+  font-size: 1.8rem;
+  color: #fafafa;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer--text span {
+  font-size: 2.4rem;
 }
