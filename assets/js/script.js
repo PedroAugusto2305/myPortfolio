@@ -1,5 +1,5 @@
 document.querySelectorAll('a').forEach(link => {
-  const content = document.getElementById('#navbar')
+  const content = document.getElementById('#content')
 
   link.onclick = function (e) {
     e.preventDefault()
