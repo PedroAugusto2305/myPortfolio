@@ -40,4 +40,16 @@
 
 .footer--text span {
   font-size: 2.4rem;
+  background: rgb(5, 64, 242);
+  background-image: linear-gradient(
+    0deg,
+    rgba(5, 64, 242, 1) 0%,
+    rgba(248, 113, 113, 1) 100%
+  );
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Adicionado: */
+  -webkit-text-fill-color: transparent;
 }

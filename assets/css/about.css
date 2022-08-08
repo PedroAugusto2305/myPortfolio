@@ -9,7 +9,8 @@
 
 /* Skills */
 
-.skills__title {
+.skills__title,
+.about--title {
   font-family: 'Saira', sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
