@@ -4,7 +4,7 @@
 
 <img src="/assets/images/home--page.png" alt="home imagem">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Projeto criado com o intuito de contar um pouco sobre mim, expor meus trabalhos e informar os serviços que realizo, além de também ter sido uma forma de botar minhas habilidades em prática construindo o mesmo.
 
 ### Ajustes e melhorias
 
@@ -16,11 +16,11 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Services Page
 - [ ] Contact Page
 
-## 📫 Contribuindo para <nome_do_projeto>
+## 📫 Contribuindo para Portfólio - Pedro Augusto
 
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+Para contribuir com Portfólio - Pedro Augusto, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
