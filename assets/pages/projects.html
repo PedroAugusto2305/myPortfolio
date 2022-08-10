@@ -22,6 +22,12 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css" />
     <title>Pedro Augusto - Projetos</title>
@@ -59,31 +65,59 @@
           forma de estudo e para clientes.
         </p>
       </section>
+      <h2 class="projects__title">Projetos.</h2>
       <section id="slider" class="max-width">
-          <div class="slider">
-            <div class="slides">
-              <!-- radio buttons -->
-              <input type="radio" name="radio-btn" id="radio1">
-              <input type="radio" name="radio-btn" id="radio2">
-              <input type="radio" name="radio-btn" id="radio3">
-
-              <!-- slide cards -->
-              <div class="slide">
-                <div class="projects--card">card 01</div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="projects--card">
+                <h2 class="projects--card__title">Projeto em Construção</h2>
+                <p class="projects--card__text">
+                  Aguarde um pouco enquanto eu termino esse projeto.
+                </p>
               </div>
-              <div class="slide">
-                <div class="projects--card">card 02</div>
-              <div class="slide">
-                <div class="projects--card">card 03</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="projects--card">
+                <h2 class="projects--card__title">Projeto em Construção</h2>
+                <p class="projects--card__text">
+                  Aguarde um pouco enquanto eu termino esse projeto.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="projects--card">
+                <h2 class="projects--card__title">Projeto em Construção</h2>
+                <p class="projects--card__text">
+                  Aguarde um pouco enquanto eu termino esse projeto.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="projects--card">
+                <h2 class="projects--card__title">Projeto em Construção</h2>
+                <p class="projects--card__text">
+                  Aguarde um pouco enquanto eu termino esse projeto.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="projects--card">
+                <h2 class="projects--card__title">Projeto em Construção</h2>
+                <p class="projects--card__text">
+                  Aguarde um pouco enquanto eu termino esse projeto.
+                </p>
               </div>
             </div>
           </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
       </section>
     </main>
 
-
-
-
+    <!--  Footer -->
     <footer id="footer" class="max-width">
       <div class="footer--content">
         <a
@@ -124,6 +158,9 @@
         Orgulhosamente feito por <span>Pedro Augusto</span>
       </p>
     </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
     <script src="/assets/js/script.js"></script>
   </body>

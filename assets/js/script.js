@@ -1,10 +1,13 @@
-// document.querySelectorAll('a').forEach(link => {
-//   const content = document.getElementById('#content')
-
-//   link.onclick = function (e) {
-//     e.preventDefault()
-//     fetch(link.getAttribute('wm-nav'))
-//       .then(resp => resp.text())
-//       .then(html => (content.innerHTML = html))
-//   }
-// })
+var swiper = new Swiper('.mySwiper', {
+  slidesPerView: 1,
+  spaceBetween: 20,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+})
