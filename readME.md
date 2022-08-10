@@ -13,7 +13,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Home Page
 - [x] About Page
 - [x] Projects Page
-- [ ] Services Page
+- [x] Services Page
 - [ ] Contact Page
 
 ## 📫 Contribuindo para Portfólio - Pedro Augusto
