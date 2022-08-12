@@ -14,7 +14,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] About Page
 - [x] Projects Page
 - [x] Services Page
-- [ ] Contact Page
+- [x] Contact Page
+- [ ] Responsividade
 
 ## 📫 Contribuindo para Portfólio - Pedro Augusto
 
