@@ -16,6 +16,7 @@ input {
   box-sizing: border-box;
   font-size: 1.3rem;
   font-family: 'Saira';
+  color: #fafafa;
 }
 
 input::placeholder {
@@ -28,6 +29,7 @@ textarea:focus {
   border: none;
   background: #0540f2;
   transition: background 0.5s ease;
+  color: #fafafa;
 }
 
 #message {
@@ -39,6 +41,7 @@ textarea:focus {
   box-sizing: border-box;
   resize: none;
   font-family: 'Saira';
+  color: #fafafa;
 }
 
 textarea:focus {

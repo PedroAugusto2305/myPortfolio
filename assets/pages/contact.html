@@ -49,18 +49,28 @@
     <main id="page">
       <section id="contact" class="max-width">
         <h2 class="contact--title">Entre em Contato.</h2>
-        <form action="" id="form">
-          <input type="text" placeholder="Nome" />
-          <input type="email" name="" id="" placeholder="Email" />
-          <input type="tel" name="" id="" placeholder="Telefone" />
+        <form
+          action="https://formsubmit.co/p.augusto_23@outlook.com"
+          method="POST"
+          id="form"
+        >
+          <input type="text" placeholder="Nome" required />
+          <input type="email" name="email" id="" placeholder="Email" required />
+          <input type="tel" name="tel" id="" placeholder="Telefone" required />
           <textarea
-            name=""
+            name="message"
             id="message"
             cols="30"
             rows="10"
             placeholder="Mensagem..."
+            required
           ></textarea>
-          <button class="btn">Enviar</button>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://my-portfolio-seven-flax.vercel.app/assets/pages/thanks.html"
+          />
+          <button type="submit" class="btn">Enviar</button>
         </form>
       </section>
     </main>
