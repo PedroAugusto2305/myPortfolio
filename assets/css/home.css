@@ -54,3 +54,63 @@
   background-color: #f87171;
   font-weight: 600;
 }
+
+/*  Responsividade  */
+
+/*
+ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17rem 0;
+  }
+  #content img {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17rem 0;
+  }
+  #content img {
+    display: none;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #content {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 17rem 0;
+  }
+  #content img {
+    display: none;
+  }
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #content {
+    margin: 0 4rem;
+  }
+  #content img {
+    width: 45rem;
+    height: 45rem;
+  }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #content {
+    margin: 0 4rem;
+  }
+}

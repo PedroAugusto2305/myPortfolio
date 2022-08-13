@@ -10,6 +10,7 @@
   color: #fafafa;
   font-size: 3.2rem;
   font-family: 'Inter';
+  margin-left: 2rem;
 }
 
 .menu {
@@ -25,4 +26,44 @@
 
 .menu .menu--item a:hover {
   color: #f87171;
+}
+
+/*  Responsividade  */
+
+/*
+ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .menu .menu--item a {
+    font-size: 1.6rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .menu .menu--item a {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 768px) {
+  #navbar {
+    border-bottom: 1px solid #0b0e48;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #navbar {
+    margin: 0 2rem;
+  }
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #navbar {
+    margin: 0 2rem;
+  }
 }
