@@ -53,3 +53,30 @@
   /* Adicionado: */
   -webkit-text-fill-color: transparent;
 }
+
+/* responsividade */
+
+@media (min-width: 320px) {
+  .footer--text {
+    font-size: 1.4rem;
+  }
+
+  .footer--text span {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 375px) {
+}
+
+/*
+ Large phones (425px and up) */
+@media (min-width: 425px) {
+  .footer--text {
+    font-size: 1.8rem;
+  }
+
+  .footer--text span {
+    font-size: 2.4rem;
+  }
+}

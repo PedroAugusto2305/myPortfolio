@@ -180,6 +180,11 @@
   #content {
     margin: 0 4rem;
   }
+  #content img {
+    width: 50rem;
+    height: 50rem;
+    display: block;
+  }
 }
 
 @media (min-width: 1441px) {

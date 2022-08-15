@@ -122,6 +122,14 @@
   #navbar {
     margin: 0 2rem;
   }
+  #navbar .logo h1 {
+    font-size: 3.2rem;
+    margin: 0 2rem;
+  }
+
+  .menu .menu--item a {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 1441px) {
