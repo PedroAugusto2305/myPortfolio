@@ -33,7 +33,7 @@
   width: 20rem;
   height: 15rem;
   background: #0a0f1c;
-  cursor: pointer;
+  border: 1px solid #0a0f1c;
   box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.025),
     6.7px 6.7px 5.3px rgba(0, 0, 0, 0.036),
     12.5px 12.5px 10px rgba(0, 0, 0, 0.045),
