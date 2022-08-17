@@ -98,6 +98,11 @@
   align-items: center;
 }
 
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -105,7 +110,70 @@
   object-fit: cover;
 }
 
-.swiper {
-  margin-left: auto;
-  margin-right: auto;
+/* Responsividade */
+
+@media (min-width: 320px) {
+  .projects--img {
+    display: none;
+  }
+
+  .projects--card {
+    width: 30.5rem;
+    height: 18rem;
+  }
+
+  .swiper {
+    width: 100vw;
+  }
+
+  .projects--text {
+    max-width: 50rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 375px) {
+}
+
+/*
+ Large phones (425px and up) */
+@media (min-width: 425px) {
+}
+/*
+ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .projects--card {
+    width: 37.5rem;
+    height: 20rem;
+  }
+
+  .swiper {
+    width: 50rem;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .projects--img {
+    display: block;
+  }
+}
+
+@media (min-width: 1441px) {
 }
