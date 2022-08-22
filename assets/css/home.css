@@ -36,6 +36,7 @@
   border: 2px solid #f87171;
   border-radius: 2px;
   cursor: pointer;
+  transition: background 0.7s, font-weight 0.7s;
 
   font-family: 'Saira';
   font-size: 3.2rem;
