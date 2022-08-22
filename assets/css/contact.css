@@ -92,3 +92,63 @@ textarea:focus {
   text-align: center;
   padding: 3.2rem;
 }
+
+/*  Responsividade  */
+
+@media (min-width: 320px) {
+  #form input,
+  textarea,
+  .btn {
+    align-items: center;
+    width: 30rem;
+    margin: 0.75rem auto;
+  }
+}
+
+@media (min-width: 375px) {
+}
+
+/*
+ Large phones (425px and up) */
+@media (min-width: 425px) {
+}
+/*
+ Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #form input,
+  textarea,
+  .btn {
+    align-items: center;
+    width: 47rem;
+    margin: 0.75rem auto;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #form input,
+  textarea,
+  .btn {
+    align-items: center;
+    width: 47rem;
+    margin: 0.75rem auto;
+  }
+}
+
+@media (min-width: 1441px) {
+}
